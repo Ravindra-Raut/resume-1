@@ -1,5 +1,5 @@
-# author: matt leary
-# date: November 19, 2019
+# author: ravindra raut
+# date: May 13, 2021
 # intent: update the resume html and pdf file in one script
 
 rmarkdown::render(input = "resume.Rmd",
