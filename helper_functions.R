@@ -1,5 +1,5 @@
-#author: matt leary
-#date:11/10/2019
+#author: ravindra raut
+#date:05/13/2021
 #intent: helper functions for resume built with R pagedown
 
 library(dplyr)
