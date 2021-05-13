@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e7807b3a-09cf-4f80-9eed-30a31ddb0d18/deploy-status)](https://app.netlify.com/sites/mattleary-resume/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e7807b3a-09cf-4f80-9eed-30a31ddb0d18/deploy-status)](https://app.netlify.com/sites/ravindra-raut-resume-1/deploys)
 
 # My resume created in R with Pagedown
 
