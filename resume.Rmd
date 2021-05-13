@@ -1,6 +1,6 @@
 ---
-title: mleary_resume
-author: Matt Leary
+title: ravindra-raut_resume
+author: ravindra-raut
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -52,23 +52,23 @@ Contact {#contact}
 # Adjust contact info based on document type - html has link while pdf does not
 if(params$doctype == "HTML") {
   glue::glue('
-    - <i class="fa fa-map-marked-alt"></i> Richmond, Virginia
-    - <i class="fa fa-phone"></i> <a href="tel:+19109886368">(910) 988-6368</a>
-    - <i class="fa fa-envelope"></i> matt.leary@protonmail.com
-    - <i class="fa fa-globe"></i> [mattleary.com](https://www.mattleary.com/blog/)
-    - <i class="fa fa-github"></i> [github.com/mleary](https://github.com/mleary)
-    - <i class="fab fa-linkedin-in"></i> [linkedin.com/mbleary](https://www.linkedin.com/in/mbleary/)
+    - <i class="fas fa-home"></i> Nanded, Maharashtra, India
+    - <i class='fa fa-phone'></i> (+91) 700 190 2565
+    - <i class='fa fa-envelope'></i> [raviraut206@gmail.com](raviraut206@gmail.com)
+    - <i class='fa fa-github'></i> [github.com/Ravindra-Raut](https://github.com/Ravindra-Raut/)
+    - <i class='fa fa-linkedin'></i> [ravindra-raut](https://www.linkedin.com/in/ravindra-raut-9402bb69/)
+    - <i class='fa fa-laptop'></i> [ravindra-raut.netlify.app](https://ravindra-raut.netlify.app/)
   ')
 } 
 
 if(params$doctype == "PDF") {
   glue::glue('
-    - <i class="fa fa-map-marked-alt"></i> Richmond, Virginia
-    - <i class="fa fa-phone"></i> 910.988.6368
-    - <i class="fa fa-envelope"></i> matt.leary<!-- breaking hyplerlink -->@protonmail.com
-    - <i class="fa fa-globe"></i> mattleary.com
-    - <i class="fa fa-github"></i> github.com/mleary
-    - <i class="fab fa-linkedin-in"></i> linkedin.com/mbleary
+    - <i class="fas fa-home"></i> Nanded, Maharashtra, India
+    - <i class='fa fa-phone'></i> (+91) 700 190 2565
+    - <i class='fa fa-envelope'></i> [raviraut206@gmail.com](raviraut206@gmail.com)
+    - <i class='fa fa-github'></i> [github.com/Ravindra-Raut](https://github.com/Ravindra-Raut/)
+    - <i class='fa fa-linkedin'></i> [ravindra-raut](https://www.linkedin.com/in/ravindra-raut-9402bb69/)
+    - <i class='fa fa-laptop'></i> [ravindra-raut.netlify.app](https://ravindra-raut.netlify.app/)
   ')
 }
 
@@ -149,14 +149,9 @@ Main
 ================================================================================
 
 
-Matthew Leary {#title}
+Ravindra Raut {#title}
 --------------------------------------------------------------------------------
-
-### Data Scientist  |  Veteran  |  Tottenham Hotspur supporter
-
-I enjoy working with data to find and deliver insights, solve business problems, and build tools that help people work more efficiently. I moved into data science after 10+ years working in public policy and public relations.
-
-
+I am currently investigating the impact of transposable elements on the adaptation of the rice genome under fungal pathogen challenges and genome duplication. Experienced in using next-generation sequencing technologies like shotgun sequencing, linked reads, and long-read sequencing for whole-genome resequencing, variant calling, transcriptome assembly, differential expression analysis, and developing pipelines. Interested in working on next-generation approaches, solving complex problems relating to genomic plasticity and epigenetics.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -167,10 +162,10 @@ print_section(position_data, 'education')
 
 
 
-Professional Experience {data-icon=suitcase}
+Research Experience {data-icon=flask}
 --------------------------------------------------------------------------------
 
 ```{r jobs}
-print_section(position_data, 'work')
+print_section(position_data, 'research_positions')
 ```
 
